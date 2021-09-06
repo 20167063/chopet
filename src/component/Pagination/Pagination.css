@@ -1,0 +1,38 @@
+.pagination{
+  margin: 0 auto;
+  margin-top: 40px;
+  width: 50%;
+  text-align: center;
+  margin-bottom: -25px;
+  display: flex;
+  justify-content: space-between;
+}
+.pagination button{
+  width: 55px;
+  height: 40px;
+  align-items: center;
+  line-height: 35px;
+  margin-top: 15px;
+  cursor: pointer;
+
+}
+.list_page{
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+}
+.list_page li{
+  width: 35px;
+  height: 35px;
+  align-items: center;
+  line-height: 35px;
+}
+.list_page li:hover{
+  border-radius: 2px solid red;
+  background-color: yellow;
+  width: 35px;
+  cursor: pointer;
+}
+.isActive{
+  background-color: yellowgreen;
+}

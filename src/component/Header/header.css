@@ -1,0 +1,36 @@
+.header-page{
+  background-color: #f6b122;
+  align-items: center;
+}
+.header-container{
+  width: 90%;
+  height: 65px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.logo img{
+  height: 40px;
+  cursor: pointer;
+}
+.seach-bar{
+  text-align: center;
+  flex: 3;
+  height: 70%;
+}
+.seach-bar input{
+  height: 100%;
+  width: 60%;
+  border-radius: 10px;
+  border: 1px solid green;
+}
+.icoin-mxh{
+  flex: 1;
+  display: flex;
+  justify-content: space-around;
+}
+.icoin{
+  cursor: pointer;
+}
